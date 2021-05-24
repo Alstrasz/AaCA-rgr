@@ -1,0 +1,9 @@
+suite_1_vector 1 0.000849435
+suite_pyramid_sort_vecotor 1 0.170531
+suite_lexic_sort_vecotor 1 0.481686
+suite_1_deque 1 0.000926077
+suite_1_heap 1 0.00077243
+meant_to_fail 0 0
+meant_to_be_fine 1 0.000755518
+---
+meant_to_fail

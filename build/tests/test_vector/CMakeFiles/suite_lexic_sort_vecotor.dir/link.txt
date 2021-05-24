@@ -1,0 +1,1 @@
+clang -Wall -std=c99 -rdynamic CMakeFiles/suite_lexic_sort_vecotor.dir/suite_lexic_sort.c.o -o suite_lexic_sort_vecotor  ../../modules/libcollections.a ../../extern/libUnity.a 

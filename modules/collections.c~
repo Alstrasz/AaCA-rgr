@@ -1,0 +1,49 @@
+#include "collections.h"
+
+char vector_resize(struct vector* inp, uint32_t size){
+    int32_t * ptr = (int32_t *)calloc(size, sizeof(int32_t));
+    if(ptr == NULL) return 1;
+    if(inp->data != NULL){
+        memcpy(ptr, inp->data, inp->pos < size ? inp->pos : size);
+        free(inp->data);
+    }
+    inp->data = ptr;
+    inp->size = size;
+    return 0;
+}
+
+char vector_create(struct vector* inp, uint32_t size){
+    inp->size = 0;
+    inp->pos = 0;
+    inp->data = NULL;
+    return vector_resize(inp, size);
+}
+
+char vector_pushback(struct vector* inp, int32_t elem){
+    return vector_set(inp, inp->pos, elem);
+}
+
+char vector_get(struct vector* inp, uint32_t pos, int32_t * ret){
+    if(pos >= inp->size){
+        return 2;
+    }
+    *ret = 1;
+    *ret = inp->data[pos];
+    return 0;
+}
+
+char vector_set(struct vector* inp, uint32_t pos, int32_t elem){
+    if(pos >= inp->size){
+        return 2;
+    }
+    inp->data[pos] = elem;
+    inp->pos = (pos + 1) > inp->pos ? pos + 1 : inp->pos;
+    return 0;
+}
+
+char vector_delete(struct vector* inp){
+    free(inp->data);
+    inp->size = 0;
+    inp->pos = 0;
+    return 0;
+}

@@ -1,0 +1,1 @@
+clang -Wall -std=c99 -rdynamic CMakeFiles/meant_to_fail.dir/meant_to_fail.c.o -o meant_to_fail  ../../extern/libUnity.a 

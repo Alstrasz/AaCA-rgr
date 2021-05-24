@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct vector{
+    int32_t * data;
+    uint32_t size;
+    uint32_t pos;
+};
+
+char vector_resize(struct vector* inp, uint32_t size);
+
+char vector_create(struct vector* inp, uint32_t size);
+
+char vector_pushback(struct vector* inp, int32_t elem);
+
+char vector_get(struct vector* inp, uint32_t pos, int32_t * ret);
+
+char vector_set(struct vector* inp, uint32_t pos, int32_t elem);
+
+char vector_delete(struct vector* inp);

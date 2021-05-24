@@ -1,0 +1,7 @@
+6
+3 abC
+2 aB
+4 aBcD
+4 aBcd
+3 AbC
+1 a

@@ -1,0 +1,42 @@
+#include "queue.h"
+
+char queue_create(struct queue* inp)
+{
+    return vector_create(&inp->vec, 8);
+}
+
+char queue_pushback(struct queue* inp, int32_t elem)
+{
+    if(inp->last_index >= inp->vec.size)
+    {
+        char t = 0;
+        if((t = vector_resize(&inp->vec, 2 * inp->vec.size)) > 0)
+        {
+            return t;
+        }
+    }
+    return vector_set(&inp->vec, inp->last_index++, elem);
+}
+
+char queue_back(struct queue* inp, int32_t *ret)
+{
+    if(inp->last_index <= 0)
+    {
+        return 2;
+    }
+    return vector_get(&inp->vec, inp->last_index - 1, ret);
+}
+
+char queue_pop_back(struct queue* inp){
+    if(inp->last_index <= 0)
+    {
+        return 2;
+    }
+    inp->last_index--;
+    return 0;
+}
+
+char queue_delete(struct queue* inp){
+    inp->last_index = 0;
+    return vector_delete(&inp->vec);
+}

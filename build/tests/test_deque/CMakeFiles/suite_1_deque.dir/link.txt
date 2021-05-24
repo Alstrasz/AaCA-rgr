@@ -1,0 +1,1 @@
+clang -Wall -std=c99 -rdynamic CMakeFiles/suite_1_deque.dir/suite_1.c.o -o suite_1_deque  ../../modules/libcollections.a ../../extern/libUnity.a 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/deque.h
+vector.h
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.h
+
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/heap.h
+vector.h
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.h
+
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.c
+vector.h
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.h
+heap.h
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/heap.h
+deque.h
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/deque.h
+stdio.h
+-
+
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.h
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+

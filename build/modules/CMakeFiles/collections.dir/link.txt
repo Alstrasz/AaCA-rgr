@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libcollections.a CMakeFiles/collections.dir/vector.c.o CMakeFiles/collections.dir/deque.c.o CMakeFiles/collections.dir/heap.c.o
+/usr/bin/llvm-ranlib libcollections.a

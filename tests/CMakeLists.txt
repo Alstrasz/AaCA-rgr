@@ -1,0 +1,4 @@
+add_subdirectory(test_vector)
+add_subdirectory(test_deque)
+add_subdirectory(test_heap)
+add_subdirectory(broken_test)

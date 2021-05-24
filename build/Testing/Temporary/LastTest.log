@@ -1,0 +1,250 @@
+Start testing: May 24 13:56 UTC
+----------------------------------------------------------
+1/7 Testing: suite_1_vector
+1/7 Test: suite_1_vector
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_vector/suite_1_vector"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_vector
+"suite_1_vector" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_1.c:57:test_norm:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"suite_1_vector" end time: May 24 13:56 UTC
+"suite_1_vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: suite_pyramid_sort_vecotor
+2/7 Test: suite_pyramid_sort_vecotor
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_vector/suite_pyramid_sort_vecotor"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_vector
+"suite_pyramid_sort_vecotor" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_pyramid_sort.c:153:test_norm:PASS
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_pyramid_sort.c:154:test_random:PASS
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_pyramid_sort.c:155:test_string:PASS
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_pyramid_sort.c:156:test_random_string:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"suite_pyramid_sort_vecotor" end time: May 24 13:56 UTC
+"suite_pyramid_sort_vecotor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: suite_lexic_sort_vecotor
+3/7 Test: suite_lexic_sort_vecotor
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_vector/suite_lexic_sort_vecotor"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_vector
+"suite_lexic_sort_vecotor" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_lexic_sort.c:155:test_norm:PASS
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_lexic_sort.c:156:test_random:PASS
+Deques deleted
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_lexic_sort.c:157:test_string:PASS
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+Deques deleted
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_vector/suite_lexic_sort.c:158:test_random_string:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"suite_lexic_sort_vecotor" end time: May 24 13:56 UTC
+"suite_lexic_sort_vecotor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: suite_1_deque
+4/7 Test: suite_1_deque
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_deque/suite_1_deque"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_deque
+"suite_1_deque" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_deque/suite_1.c:48:test_norm:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"suite_1_deque" end time: May 24 13:56 UTC
+"suite_1_deque" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: suite_1_heap
+5/7 Test: suite_1_heap
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_heap/suite_1_heap"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/test_heap
+"suite_1_heap" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_heap/suite_1.c:72:test_norm:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"suite_1_heap" end time: May 24 13:56 UTC
+"suite_1_heap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: meant_to_fail
+6/7 Test: meant_to_fail
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/broken_test/meant_to_fail"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/broken_test
+"meant_to_fail" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/broken_test/meant_to_fail.c:6:test_subnorm:FAIL: Expected 3 Was 5
+
+-----------------------
+1 Tests 1 Failures 0 Ignored 
+FAIL
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"meant_to_fail" end time: May 24 13:56 UTC
+"meant_to_fail" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: meant_to_be_fine
+7/7 Test: meant_to_be_fine
+Command: "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/broken_test/meant_to_be_fine"
+Directory: /home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/tests/broken_test
+"meant_to_be_fine" start time: May 24 13:56 UTC
+Output:
+----------------------------------------------------------
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/broken_test/meant_to_be_fine.c:15:test_subnorm:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"meant_to_be_fine" end time: May 24 13:56 UTC
+"meant_to_be_fine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 24 13:56 UTC

@@ -1,0 +1,8 @@
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/CMakeFiles/rebuild_cache.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/CMakeFiles/edit_cache.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/modules/CMakeFiles/rebuild_cache.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/modules/CMakeFiles/edit_cache.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/modules/CMakeFiles/collections.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/main/CMakeFiles/rebuild_cache.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/main/CMakeFiles/edit_cache.dir
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/main/CMakeFiles/main.dir

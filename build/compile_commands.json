@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/modules",
+  "command": "clang  -I\"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules\" -Wall -std=c99 -o CMakeFiles/collections.dir/vector.c.o -c \"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.c\"",
+  "file": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/vector.c"
+},
+{
+  "directory": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/modules",
+  "command": "clang  -I\"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules\" -Wall -std=c99 -o CMakeFiles/collections.dir/deque.c.o -c \"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/deque.c\"",
+  "file": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/deque.c"
+},
+{
+  "directory": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/modules",
+  "command": "clang  -I\"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules\" -Wall -std=c99 -o CMakeFiles/collections.dir/heap.c.o -c \"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/heap.c\"",
+  "file": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules/heap.c"
+},
+{
+  "directory": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/build/main",
+  "command": "clang  -I\"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/modules\" -Wall -std=c99 -o CMakeFiles/main.dir/main.c.o -c \"/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/main/main.c\"",
+  "file": "/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/main/main.c"
+}
+]

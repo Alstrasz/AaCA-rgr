@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../extern/Unity/src/unity.h
+unity_internals.h
+../extern/Unity/src/unity_internals.h
+
+../extern/Unity/src/unity_internals.h
+unity_config.h
+../extern/Unity/src/unity_config.h
+setjmp.h
+-
+stdint.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/broken_test/meant_to_fail.c
+unity.h
+-
+

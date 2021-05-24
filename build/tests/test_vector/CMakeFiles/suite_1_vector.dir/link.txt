@@ -1,0 +1,1 @@
+clang -Wall -std=c99 -rdynamic CMakeFiles/suite_1_vector.dir/suite_1.c.o -o suite_1_vector  ../../modules/libcollections.a ../../extern/libUnity.a 

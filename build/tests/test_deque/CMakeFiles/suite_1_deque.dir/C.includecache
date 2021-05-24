@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../extern/Unity/src/unity.h
+unity_internals.h
+../extern/Unity/src/unity_internals.h
+
+../extern/Unity/src/unity_internals.h
+unity_config.h
+../extern/Unity/src/unity_config.h
+setjmp.h
+-
+stdint.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+
+../modules/deque.h
+vector.h
+../modules/vector.h
+
+../modules/vector.h
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_deque/suite_1.c
+unity.h
+-
+deque.h
+/home/alstrasz/Documents/c-karlov-rgr-proj (git_test)/tests/test_deque/deque.h
+

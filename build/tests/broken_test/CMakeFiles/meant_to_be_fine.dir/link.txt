@@ -1,0 +1,1 @@
+clang -Wall -std=c99 -rdynamic CMakeFiles/meant_to_be_fine.dir/meant_to_be_fine.c.o -o meant_to_be_fine  ../../extern/libUnity.a 

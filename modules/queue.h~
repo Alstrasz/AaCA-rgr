@@ -1,0 +1,16 @@
+#include "vector.h"
+
+struct queue{
+    struct vector vec;
+    uint32_t last_index;
+};
+
+char queue_create(struct queue* inp);
+
+char queue_pushback(struct queue* inp, int32_t elem);
+
+char queue_back(struct queue* inp, int32_t *ret);
+
+char queue_pop_back(struct queue* inp);
+
+char queue_delete(struct queue* inp);

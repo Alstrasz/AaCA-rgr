@@ -1,0 +1,1 @@
+clang -Wall -std=c99 -rdynamic CMakeFiles/main.dir/main.c.o -o main  ../modules/libcollections.a 
